@@ -21,7 +21,7 @@ public class LoopAround : MonoBehaviour {
         Vector3 pos = collider.transform.position;
         if (collider.tag.Equals("Obstacle"))
         {
-            pos.x += widthOfBgObject + 20f;
+            pos.x += widthOfBgObject + 30f;
             pos.y = Random.Range(-1.72f, 2.16f);
             collider.transform.position = pos;
         }
